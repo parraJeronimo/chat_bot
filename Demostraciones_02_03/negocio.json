@@ -1,0 +1,43 @@
+{
+  "nombre": "AnimaBot Veterinaria",
+  "zona_horaria": "America/Bogota",
+  "capacidad": 1,
+  "paso_minutos": 30,
+  "servicios": {
+    "consulta_general": {
+      "nombre": "Consulta general",
+      "duracion_minutos": 30,
+      "precio_cop": 60000
+    },
+    "vacunacion": {
+      "nombre": "Vacunación",
+      "duracion_minutos": 20,
+      "precio_cop": 45000
+    },
+    "desparasitacion": {
+      "nombre": "Desparasitación",
+      "duracion_minutos": 20,
+      "precio_cop": 35000
+    },
+    "peluqueria": {
+      "nombre": "Peluquería y baño",
+      "duracion_minutos": 60,
+      "precio_cop": 55000
+    },
+    "cirugia_menor": {
+      "nombre": "Cirugía menor",
+      "duracion_minutos": 90,
+      "precio_cop": 280000
+    }
+  },
+  "horarios": {
+    "0": ["08:00", "18:00"],
+    "1": ["08:00", "18:00"],
+    "2": ["08:00", "18:00"],
+    "3": ["08:00", "18:00"],
+    "4": ["08:00", "18:00"],
+    "5": ["08:00", "13:00"]
+  },
+  "ubicacion": "Cra 10 #20-30, Armenia, Quindío. Datos ficticios de práctica.",
+  "condiciones": "Trae el carné de vacunación de tu mascota si lo tienes. Datos ficticios de práctica."
+}
